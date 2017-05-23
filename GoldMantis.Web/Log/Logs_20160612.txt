@@ -1,0 +1,84 @@
+
+----------------------header--------------------------
+2016-06-12 10:23:55,242 [9] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 10:44:06,169 [11] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 12:15:41,805 [12] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 12:17:12,377 [9] INFO  fileAppender - 登陆成功
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2016-06-12 12:17:51,346 [7] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 12:19:13,140 [14] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 12:43:23,942 [12] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 12:53:34,818 [9] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 13:06:21,959 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 13:46:07,885 [16] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 13:52:51,882 [12] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 14:13:15,311 [9] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 15:00:24,712 [6] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 15:03:08,869 [13] INFO  fileAppender - 登陆成功
+2016-06-12 15:03:21,836 [11] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/","ClientIP":"127.0.0.1","Message":"值不能为 null。\r\n参数名: source","MessageType":"全局捕获","Source":"System.Core","TargetSite":"System.Core","StackTrace":"   在 System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   在 GoldMantis.Web.ViewModel.MenuTree.AddChild(MenuTree parentNode, List`1 menus) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.ViewModel\\Permission\\MenuTree.cs:行号 27\r\n   在 GoldMantis.Web.ViewModel.MenuTree.CreateTree(List`1 menus) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.ViewModel\\Permission\\MenuTree.cs:行号 19\r\n   在 GoldMantis.Web.HtmlControl.MenuExtensions.Menu(HtmlHelper htmlHelper, List`1 menuModels) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\MenuExtensions.cs:行号 16\r\n   在 ASP._Page_Views_Shared__LayoutIndex_cshtml.Execute() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Views\\Shared\\_LayoutIndex.cshtml:行号 84\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()\r\n   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer)\r\n   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)\r\n   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)\r\n   在 System.Web.WebPages.WebPageExecutingBase.WriteTo(TextWriter writer, HelperResult content)\r\n   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)\r\n   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)\r\n   在 System.Web.WebPages.WebPageBase.PopContext()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)\r\n   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)\r\n   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":true}
+2016-06-12 15:03:37,626 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 15:06:04,772 [7] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 15:57:24,833 [11] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 15:59:35,046 [8] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:02:05,975 [7] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:05:47,181 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:06:38,467 [6] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:07:49,074 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:20:47,572 [6] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:23:57,461 [11] INFO  fileAppender - 登陆成功
+2016-06-12 16:24:49,987 [5] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/SystemManage/UserProfile/Index","ClientIP":"127.0.0.1","Message":"未将对象引用设置到对象的实例。","MessageType":"全局捕获","Source":"GoldMantis.Web.HtmlControl","TargetSite":"GoldMantis.Web.HtmlControl","StackTrace":"   在 GoldMantis.Web.HtmlControl.TableCellExtensions.TableCell[T](HtmlHelper htmlHelper, TableCellAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableCellExtensions.cs:行号 16\r\n   在 GoldMantis.Web.HtmlControl.TableRowExtensions.TableRowString[T](HtmlHelper htmlHelper, TableRowAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableRowExtensions.cs:行号 22\r\n   在 GoldMantis.Web.HtmlControl.TableExtensions.TableString[T](HtmlHelper htmlHelper, TableAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableExtensions.cs:行号 85\r\n   在 GoldMantis.Web.HtmlControl.TableExtensions.Table[T](HtmlHelper htmlHelper, TableAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableExtensions.cs:行号 15\r\n   在 ASP._Page_Areas_SystemManage_Views_UserProfile_Index_Partial_cshtml.Execute() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Areas\\SystemManage\\Views\\UserProfile\\Index_Partial.cshtml:行号 12\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()\r\n   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)\r\n   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)\r\n   在 System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)\r\n   在 System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)\r\n   在 ASP._Page_Views_Shared__GmLayoutSelectDialog_cshtml.Execute() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Views\\Shared\\_GmLayoutSelectDialog.cshtml:行号 83\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()\r\n   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer)\r\n   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)\r\n   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)\r\n   在 System.Web.WebPages.WebPageExecutingBase.WriteTo(TextWriter writer, HelperResult content)\r\n   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)\r\n   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)\r\n   在 System.Web.WebPages.WebPageBase.PopContext()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)\r\n   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)\r\n   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":true}
+2016-06-12 16:25:53,641 [23] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/SystemManage/UserProfile/Index","ClientIP":"127.0.0.1","Message":"未将对象引用设置到对象的实例。","MessageType":"全局捕获","Source":"GoldMantis.Web.HtmlControl","TargetSite":"GoldMantis.Web.HtmlControl","StackTrace":"   在 GoldMantis.Web.HtmlControl.TableCellExtensions.TableCell[T](HtmlHelper htmlHelper, TableCellAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableCellExtensions.cs:行号 16\r\n   在 GoldMantis.Web.HtmlControl.TableRowExtensions.TableRowString[T](HtmlHelper htmlHelper, TableRowAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableRowExtensions.cs:行号 22\r\n   在 GoldMantis.Web.HtmlControl.TableExtensions.TableString[T](HtmlHelper htmlHelper, TableAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableExtensions.cs:行号 85\r\n   在 GoldMantis.Web.HtmlControl.TableExtensions.Table[T](HtmlHelper htmlHelper, TableAttribute`1 attribute) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web.HtmlControl\\TableExtensions.cs:行号 15\r\n   在 ASP._Page_Areas_SystemManage_Views_UserProfile_Index_Partial_cshtml.Execute() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Areas\\SystemManage\\Views\\UserProfile\\Index_Partial.cshtml:行号 12\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()\r\n   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)\r\n   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)\r\n   在 System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)\r\n   在 System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)\r\n   在 ASP._Page_Views_Shared__GmLayoutSelectDialog_cshtml.Execute() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Views\\Shared\\_GmLayoutSelectDialog.cshtml:行号 83\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()\r\n   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer)\r\n   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderPageCore>b__6(TextWriter writer)\r\n   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)\r\n   在 System.Web.WebPages.WebPageExecutingBase.WriteTo(TextWriter writer, HelperResult content)\r\n   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)\r\n   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)\r\n   在 System.Web.WebPages.WebPageBase.PopContext()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)\r\n   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)\r\n   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":true}
+
+----------------------header--------------------------
+2016-06-12 16:30:08,137 [7] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:32:48,700 [12] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-12 16:49:04,628 [12] INFO  fileAppender - 登陆成功

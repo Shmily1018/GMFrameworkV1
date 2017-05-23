@@ -1,0 +1,71 @@
+
+----------------------header--------------------------
+2016-06-08 12:17:45,935 [13] INFO  fileAppender - 登陆成功
+2016-06-08 12:18:05,087 [12] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/","ClientIP":"127.0.0.1","Message":"基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。","MessageType":"全局捕获","Source":"mscorlib","TargetSite":"mscorlib","StackTrace":"\r\nServer stack trace: \r\n   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)\r\n   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)\r\n   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)\r\n   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)\r\n   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)\r\n   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)\r\n   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)\r\n\r\nException rethrown at [0]: \r\n   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)\r\n   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   在 GoldMantis.Service.Contract.Contract.IPermissionService.GetSCFlowMapingList()\r\n   在 GoldMantis.Web.Controllers.HomeController.GetWaitHandle() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Controllers\\HomeController.cs:行号 44\r\n   在 GoldMantis.Web.Controllers.HomeController.Index() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Controllers\\HomeController.cs:行号 82\r\n   在 lambda_method(Closure , ControllerBase , Object[] )\r\n   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)\r\n   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":false}
+
+----------------------header--------------------------
+2016-06-08 12:18:56,873 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 12:22:27,950 [12] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 12:23:42,072 [8] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 12:25:08,521 [10] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 12:31:36,092 [9] INFO  fileAppender - 登陆成功
+2016-06-08 12:31:51,514 [11] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 12:55:18,812 [16] INFO  fileAppender - 登陆成功
+2016-06-08 12:55:56,139 [6] INFO  fileAppender - 登陆成功
+2016-06-08 12:55:59,700 [14] INFO  fileAppender - 登陆成功
+2016-06-08 12:57:12,007 [6] INFO  fileAppender - 登陆成功
+2016-06-08 12:57:49,518 [21] INFO  fileAppender - 登陆成功
+2016-06-08 12:58:08,616 [25] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 12:59:09,354 [12] INFO  fileAppender - 登陆成功
+2016-06-08 12:59:28,845 [7] INFO  fileAppender - 登陆成功
+2016-06-08 12:59:40,017 [12] INFO  fileAppender - 登陆成功
+2016-06-08 13:00:25,653 [12] INFO  fileAppender - 登陆成功
+2016-06-08 13:01:09,583 [21] INFO  fileAppender - 登陆成功
+2016-06-08 13:01:40,215 [11] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 13:03:37,821 [10] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 13:06:48,506 [7] INFO  fileAppender - 登陆成功
+2016-06-08 13:06:54,416 [14] INFO  fileAppender - 登陆成功
+2016-06-08 13:10:04,983 [27] INFO  fileAppender - 登陆成功
+2016-06-08 13:15:16,713 [34] INFO  fileAppender - 登陆成功
+2016-06-08 13:16:34,097 [41] INFO  fileAppender - 登陆成功
+2016-06-08 13:18:29,738 [60] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 13:31:43,270 [15] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 13:33:34,370 [14] INFO  fileAppender - 登陆成功
+2016-06-08 13:34:32,365 [19] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 13:58:20,597 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 14:06:49,448 [12] INFO  fileAppender - 登陆成功
+2016-06-08 14:08:59,880 [18] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 14:10:21,314 [7] INFO  fileAppender - 登陆成功
+2016-06-08 14:11:39,122 [6] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 16:42:05,743 [14] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-08 16:42:44,929 [13] INFO  fileAppender - 登陆成功

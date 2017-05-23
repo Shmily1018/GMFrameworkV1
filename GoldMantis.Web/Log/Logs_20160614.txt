@@ -1,0 +1,59 @@
+
+----------------------header--------------------------
+2016-06-14 09:09:16,453 [12] INFO  fileAppender - 登陆成功
+2016-06-14 09:10:02,046 [5] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/UserArea/User/Index500","ClientIP":"127.0.0.1","Message":"输入字符串的格式不正确。","MessageType":"全局捕获","Source":"mscorlib","TargetSite":"mscorlib","StackTrace":"   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)\r\n   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)\r\n   在 System.Convert.ToInt32(String value)\r\n   在 GoldMantis.Web.Areas.UserArea.Controllers.UserController.Index500(ModelDemoIndex model) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Areas\\UserArea\\Controllers\\UserController.cs:行号 162\r\n   在 lambda_method(Closure , ControllerBase , Object[] )\r\n   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)\r\n   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":true}
+2016-06-14 09:18:15,129 [56] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/UserArea/User/Index500","ClientIP":"127.0.0.1","Message":"输入字符串的格式不正确。","MessageType":"全局捕获","Source":"mscorlib","TargetSite":"mscorlib","StackTrace":"   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)\r\n   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)\r\n   在 System.Convert.ToInt32(String value)\r\n   在 GoldMantis.Web.Areas.UserArea.Controllers.UserController.Index500(ModelDemoIndex model) 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Areas\\UserArea\\Controllers\\UserController.cs:行号 162\r\n   在 lambda_method(Closure , ControllerBase , Object[] )\r\n   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)\r\n   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass48.<InvokeActionMethodFilterAsynchronouslyRecursive>b__41()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()\r\n   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":true}
+
+----------------------header--------------------------
+2016-06-14 09:54:59,741 [13] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-14 10:03:39,398 [14] INFO  fileAppender - 登陆成功
+
+----------------------header--------------------------
+2016-06-14 10:13:20,746 [14] INFO  fileAppender - 登录成功
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2016-06-14 10:31:21,231 [6] INFO  fileAppender - 登录成功
+
+----------------------header--------------------------
+2016-06-14 10:40:31,019 [8] INFO  fileAppender - 登录成功
+2016-06-14 10:41:17,283 [11] INFO  fileAppender - {"RequestUrl":"http://localhost:43546/OA/OAOvertime/Create","ClientIP":"127.0.0.1","Message":"运算符“!=”无法应用于“GoldMantis.Common.EnumPageMode”和“GoldMantis.Common.CustomEnum.EnumPageState”类型的操作数","MessageType":"全局捕获","Source":"Anonymously Hosted DynamicMethods Assembly","TargetSite":"Anonymously Hosted DynamicMethods Assembly","StackTrace":"   在 CallSite.Target(Closure , CallSite , Object , EnumPageState )\r\n   在 System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)\r\n   在 ASP._Page_Areas_OA_Views_OAOvertime_Create_cshtml.Execute() 位置 f:\\TFS_Application\\ERP\\GMNewPlatform\\GoldMantisNewErp\\GoldMantis.Web\\Areas\\OA\\Views\\OAOvertime\\Create.cshtml:行号 108\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()\r\n   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.StartPage.RunPage()\r\n   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()\r\n   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)\r\n   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)\r\n   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)\r\n   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)\r\n   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()\r\n   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)","InnerException":true}
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2016-06-14 10:56:49,629 [29] INFO  fileAppender - 登录成功
+
+----------------------header--------------------------
+2016-06-14 11:07:40,488 [23] INFO  fileAppender - 登录成功
+2016-06-14 11:10:53,019 [25] INFO  fileAppender - 登录成功
+2016-06-14 11:10:57,851 [24] INFO  fileAppender - 登录成功
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2016-06-14 11:26:20,854 [97] INFO  fileAppender - 登录成功
+2016-06-14 11:29:28,081 [104] INFO  fileAppender - 登录成功
+
+----------------------header--------------------------
+2016-06-14 12:18:17,029 [341] INFO  fileAppender - 登录成功
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2016-06-14 12:19:17,634 [334] INFO  fileAppender - 登录成功
+2016-06-14 12:19:22,079 [335] INFO  fileAppender - 登录成功
+2016-06-14 12:19:25,442 [342] INFO  fileAppender - 登录成功
+2016-06-14 12:19:29,488 [333] INFO  fileAppender - 登录成功
+
+----------------------header--------------------------
+2016-06-14 12:20:48,396 [5] INFO  fileAppender - 登录成功
+
+----------------------header--------------------------
+2016-06-14 12:21:12,973 [8] INFO  fileAppender - 登录成功
+
+----------------------header--------------------------
+2016-06-14 12:21:37,286 [8] INFO  fileAppender - 登录成功

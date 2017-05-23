@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Web", "GoldMantis.Web\GoldMantis.Web.csproj", "{0906A9AB-081C-4812-B275-996F08BCA151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Service", "GoldMantis.Service\GoldMantis.Service.csproj", "{709583C1-C6CB-48C2-A030-83A85B6B5271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Service.Dal", "GoldMantis.Service.Dal\GoldMantis.Service.Dal.csproj", "{518E1E22-1FFB-42E9-B81A-7319F1927132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Service.Contract", "GoldMantis.Service.Contract\GoldMantis.Service.Contract.csproj", "{7834799D-7070-43BA-8026-53807389E667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Service.Biz", "GoldMantis.Service.Biz\GoldMantis.Service.Biz.csproj", "{A20B3A22-5893-47F0-A396-6A24B948C540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Web.Core", "GoldMantis.Web.Core\GoldMantis.Web.Core.csproj", "{F67A0153-20E8-4551-99D0-EA5361D5184C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.DI", "GoldMantis.DI\GoldMantis.DI.csproj", "{EC3AEB66-1509-4B2B-A6BA-918A28B5A2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Entity", "GoldMantis.Entity\GoldMantis.Entity.csproj", "{549EB49C-D99C-4124-A55E-A60CEEB9DAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Web.HtmlControl", "GoldMantis.Web.HtmlControl\GoldMantis.Web.HtmlControl.csproj", "{FDDA35BC-D3A9-4E65-86F9-C46D867E6B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Common", "GoldMantis.Common\GoldMantis.Common.csproj", "{2C049107-E053-489B-8BDD-A4B97BCEFC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Web.ViewModel", "GoldMantis.Web.ViewModel\GoldMantis.Web.ViewModel.csproj", "{E34C8229-3A9A-4FB3-8E67-AE0DB6188799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Redis", "GoldMantis.Redis\GoldMantis.Redis.csproj", "{3B2FCB2C-8E77-43DB-BF8F-A6F7AEF4212A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldMantis.Log", "GoldMantis.Log\GoldMantis.Log.csproj", "{31ECD071-C06E-4D2E-A28C-455530F2DC10}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.0.200:8080/tfs/goldmantis
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GoldMantis.Web\\GoldMantis.Web.csproj
+		SccProjectName1 = GoldMantis.Web
+		SccLocalPath1 = GoldMantis.Web
+		SccProjectUniqueName2 = GoldMantis.Service\\GoldMantis.Service.csproj
+		SccProjectName2 = GoldMantis.Service
+		SccLocalPath2 = GoldMantis.Service
+		SccProjectUniqueName3 = GoldMantis.Service.Dal\\GoldMantis.Service.Dal.csproj
+		SccProjectName3 = GoldMantis.Service.Dal
+		SccLocalPath3 = GoldMantis.Service.Dal
+		SccProjectUniqueName4 = GoldMantis.Service.Contract\\GoldMantis.Service.Contract.csproj
+		SccProjectName4 = GoldMantis.Service.Contract
+		SccLocalPath4 = GoldMantis.Service.Contract
+		SccProjectUniqueName5 = GoldMantis.Service.Biz\\GoldMantis.Service.Biz.csproj
+		SccProjectName5 = GoldMantis.Service.Biz
+		SccLocalPath5 = GoldMantis.Service.Biz
+		SccProjectUniqueName6 = GoldMantis.Web.Core\\GoldMantis.Web.Core.csproj
+		SccProjectName6 = GoldMantis.Web.Core
+		SccLocalPath6 = GoldMantis.Web.Core
+		SccProjectUniqueName7 = GoldMantis.DI\\GoldMantis.DI.csproj
+		SccProjectName7 = GoldMantis.DI
+		SccLocalPath7 = GoldMantis.DI
+		SccProjectUniqueName8 = GoldMantis.Entity\\GoldMantis.Entity.csproj
+		SccProjectName8 = GoldMantis.Entity
+		SccLocalPath8 = GoldMantis.Entity
+		SccProjectUniqueName9 = GoldMantis.Web.HtmlControl\\GoldMantis.Web.HtmlControl.csproj
+		SccProjectName9 = GoldMantis.Web.HtmlControl
+		SccLocalPath9 = GoldMantis.Web.HtmlControl
+		SccProjectUniqueName10 = GoldMantis.Common\\GoldMantis.Common.csproj
+		SccProjectName10 = GoldMantis.Common
+		SccLocalPath10 = GoldMantis.Common
+		SccProjectUniqueName11 = GoldMantis.Web.ViewModel\\GoldMantis.Web.ViewModel.csproj
+		SccProjectName11 = GoldMantis.Web.ViewModel
+		SccLocalPath11 = GoldMantis.Web.ViewModel
+		SccProjectUniqueName12 = GoldMantis.Redis\\GoldMantis.Redis.csproj
+		SccProjectName12 = GoldMantis.Redis
+		SccLocalPath12 = GoldMantis.Redis
+		SccProjectUniqueName13 = GoldMantis.Log\\GoldMantis.Log.csproj
+		SccProjectName13 = GoldMantis.Log
+		SccLocalPath13 = GoldMantis.Log
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0906A9AB-081C-4812-B275-996F08BCA151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0906A9AB-081C-4812-B275-996F08BCA151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0906A9AB-081C-4812-B275-996F08BCA151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0906A9AB-081C-4812-B275-996F08BCA151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709583C1-C6CB-48C2-A030-83A85B6B5271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709583C1-C6CB-48C2-A030-83A85B6B5271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709583C1-C6CB-48C2-A030-83A85B6B5271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709583C1-C6CB-48C2-A030-83A85B6B5271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518E1E22-1FFB-42E9-B81A-7319F1927132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518E1E22-1FFB-42E9-B81A-7319F1927132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518E1E22-1FFB-42E9-B81A-7319F1927132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518E1E22-1FFB-42E9-B81A-7319F1927132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7834799D-7070-43BA-8026-53807389E667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7834799D-7070-43BA-8026-53807389E667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7834799D-7070-43BA-8026-53807389E667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7834799D-7070-43BA-8026-53807389E667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20B3A22-5893-47F0-A396-6A24B948C540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20B3A22-5893-47F0-A396-6A24B948C540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20B3A22-5893-47F0-A396-6A24B948C540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20B3A22-5893-47F0-A396-6A24B948C540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67A0153-20E8-4551-99D0-EA5361D5184C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67A0153-20E8-4551-99D0-EA5361D5184C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67A0153-20E8-4551-99D0-EA5361D5184C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67A0153-20E8-4551-99D0-EA5361D5184C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3AEB66-1509-4B2B-A6BA-918A28B5A2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3AEB66-1509-4B2B-A6BA-918A28B5A2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3AEB66-1509-4B2B-A6BA-918A28B5A2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3AEB66-1509-4B2B-A6BA-918A28B5A2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549EB49C-D99C-4124-A55E-A60CEEB9DAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549EB49C-D99C-4124-A55E-A60CEEB9DAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549EB49C-D99C-4124-A55E-A60CEEB9DAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549EB49C-D99C-4124-A55E-A60CEEB9DAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDA35BC-D3A9-4E65-86F9-C46D867E6B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDA35BC-D3A9-4E65-86F9-C46D867E6B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDA35BC-D3A9-4E65-86F9-C46D867E6B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDA35BC-D3A9-4E65-86F9-C46D867E6B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C049107-E053-489B-8BDD-A4B97BCEFC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C049107-E053-489B-8BDD-A4B97BCEFC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C049107-E053-489B-8BDD-A4B97BCEFC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C049107-E053-489B-8BDD-A4B97BCEFC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34C8229-3A9A-4FB3-8E67-AE0DB6188799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34C8229-3A9A-4FB3-8E67-AE0DB6188799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34C8229-3A9A-4FB3-8E67-AE0DB6188799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34C8229-3A9A-4FB3-8E67-AE0DB6188799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2FCB2C-8E77-43DB-BF8F-A6F7AEF4212A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2FCB2C-8E77-43DB-BF8F-A6F7AEF4212A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2FCB2C-8E77-43DB-BF8F-A6F7AEF4212A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2FCB2C-8E77-43DB-BF8F-A6F7AEF4212A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ECD071-C06E-4D2E-A28C-455530F2DC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ECD071-C06E-4D2E-A28C-455530F2DC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ECD071-C06E-4D2E-A28C-455530F2DC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ECD071-C06E-4D2E-A28C-455530F2DC10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

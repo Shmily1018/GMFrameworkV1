@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="GoldMantis.Entity" namespace="GoldMantis.Entity" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="OAOvertimeDetail" table="OAOvertimeDetail" lazy="true" >
+    <id name="ID" column="ID">
+      <generator class="native" />
+    </id>
+    <property name="OvertimeID">
+      <column name="OvertimeID" sql-type="int" not-null="true" />
+    </property>
+    <property name="MakerID">
+      <column name="MakerID" sql-type="int" not-null="true" />
+    </property>
+    <property name="JobID">
+      <column name="JobID" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="OvertimeStartProgress">
+      <column name="OvertimeStartProgress" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="OvertimeEndProgress">
+      <column name="OvertimeEndProgress" sql-type="decimal" not-null="false" />
+    </property>
+    <property name="OvertimeDate">
+      <column name="OvertimeDate" sql-type="decimal" not-null="true" />
+    </property>
+    <property name="GetOffWorkDate">
+      <column name="GetOffWorkDate" sql-type="datetime" not-null="true" />
+    </property>
+    <property name="Memo">
+      <column name="Memo" sql-type="nvarchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

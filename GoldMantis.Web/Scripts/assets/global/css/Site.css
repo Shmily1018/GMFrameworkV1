@@ -1,0 +1,9 @@
+﻿/*禁止出现滚动条*/
+.red {
+    color: red;
+}
+
+.common-table-tr-selected
+{
+	color: red;
+}

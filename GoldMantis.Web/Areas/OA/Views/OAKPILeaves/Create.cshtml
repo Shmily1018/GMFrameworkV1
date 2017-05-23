@@ -1,0 +1,314 @@
+﻿@model ModelOAKPILeavesCreate
+@{
+    ViewBag.Title = "SampleEdit";
+    Layout = "~/Views/Shared/_GmLayoutWorkFlowEdit.cshtml";
+}
+
+@Html.HiddenFor(x => x.OAKPILeaves.ID)
+@Html.HiddenFor(x => x.OAKPILeaves.EmpId)
+@Html.HiddenFor(x => x.OAKPILeaves.MakerID)
+@Html.HiddenFor(x => x.OAKPILeaves.DeptId)
+
+<style>
+    .wrapeer {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+
+    .row {
+        margin: 0px;
+    }
+
+    .form-group {
+        margin: 0px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .form-group label {
+        padding-top: 14px !important;
+        height: 100%;
+        vertical-align: middle !important;
+    }
+
+    .form-group > div {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+</style>
+
+
+@section ActionButtonAreaCenter{
+    @if (Model.ButtonUnSubmitVisible)
+    {
+        <input type="button" id="btnUnSubmit" class="btn default" value="反审核" />
+    }
+
+}
+<div class="wrapeer">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+
+                <label class="control-label col-sm-4">编号：</label>
+
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.OAKPILeaves.Code, new { @readonly = "readonly", @class = "form-control" })
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">员工：</label>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.EmployeeName, new { @readonly = "readonly", @class = "form-control" })
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">所在部门：</label>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.DeptName, new { @readonly = "readonly", @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+
+                <label class="control-label col-sm-4">岗位：</label>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.PositionName, new { @readonly = "readonly", @class = "form-control" })
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4"><span class="red">*</span>请假开始时间：</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        @Html.TextBoxFor(x => x.OAKPILeaves.BeginDate, new { @readonly = "readonly", @class = "form-control datetime-picker longDateFormat" })
+                        @Html.ValidationMessageFor(x => x.OAKPILeaves.BeginDate)
+                        <span class="input-group-addon">至</span>
+                        @Html.TextBoxFor(x => x.OAKPILeaves.EndDate, new { @readonly = "readonly", @class = "form-control  datetime-picker longDateFormat" })
+                        @Html.ValidationMessageFor(x => x.OAKPILeaves.EndDate)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4"><span class="red">*</span>请假天数：</label>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.OAKPILeaves.Days, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.OAKPILeaves.Days)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4"><span class="red">*</span>请假类型：</label>
+                <div class="col-sm-8">
+                    @Html.DropDownListFor(x => x.OAKPILeaves.LeaveType, Model.LeavesTypeList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.OAKPILeaves.LeaveType)
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">工作代理人：</label>
+                <div class="col-sm-8">
+                    @Html.SelectWidgetFor(new SelectWidgetAttribute<ModelOAKPILeavesCreate, string, int?>
+                        (m => m.OAKPILeaves.WorkAgentName,
+                        m => m.OAKPILeaves.WorkAgentID,
+                        "OA/UserProfile/Index"))
+
+                    @Html.ValidationMessageFor(x => x.OAKPILeaves.WorkAgentID)
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">编制人：</label>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.MakerName, new { @readonly = "readonly", @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">编制日期：</label>
+                <div class="col-sm-8">
+                    @Html.TextBoxFor(x => x.OAKPILeaves.MakeDate, new { @readonly = "readonly", @class = "form-control shortDateFormat" })
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label class="control-label col-sm-2"><span class="red">*</span>请假原因：</label>
+                <div class="col-sm-10">
+                    <div style="word-break: break-all; word-wrap: break-word;">
+                        @Html.TextAreaFor(model => model.OAKPILeaves.Reason, new { @class = "form-control", style = "resize: none;height: 100px;" })
+                        @Html.ValidationMessageFor(x => x.OAKPILeaves.Reason)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@*<br />
+    <style>
+        th {
+            text-align: right;
+            font-size: 15px;
+            font-weight: normal;
+            /*background-color: #F9F9F9;*/
+        }
+    </style>
+
+    <table class="table table-bordered table-striped">
+        <colgroup>
+            <col width="15%" />
+            <col width="35%" />
+            <col width="15%" />
+            <col width="35%" />
+        </colgroup>
+        <tr>
+            <th>
+                编号：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.OAKPILeaves.Code, new { @readonly = "readonly", @class = "form-control" })
+            </td>
+            <th>
+                <span class="red">*</span>员工：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.EmployeeName, new { @readonly = "readonly", @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <span class="red">*</span>所在部门：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.DeptName, new { @readonly = "readonly", @class = "form-control" })
+            </td>
+            <th>
+                岗位：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.PositionName, new { @readonly = "readonly", @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                请假开始时间：
+            </th>
+            <td>
+                <div class="input-group">
+                    @Html.TextBoxFor(x => x.OAKPILeaves.BeginDate, new { @readonly = "readonly", @class = "form-control datetime-picker longDateFormat" })
+                    @Html.ValidationMessageFor(x => x.OAKPILeaves.BeginDate)
+                    <span class="input-group-addon">至</span>
+                    @Html.TextBoxFor(x => x.OAKPILeaves.EndDate, new { @readonly = "readonly", @class = "form-control  datetime-picker longDateFormat" })
+                    @Html.ValidationMessageFor(x => x.OAKPILeaves.EndDate)
+                </div>
+            </td>
+            <th>
+                <span class="red">*</span>请假天数：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.OAKPILeaves.Days, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.OAKPILeaves.Days)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                请假类型：
+            </th>
+            <td>
+                @Html.DropDownListFor(x => x.OAKPILeaves.LeaveType, Model.LeavesTypeList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.OAKPILeaves.LeaveType)
+            </td>
+            <th>
+                工作代理人：
+            </th>
+            <td>
+                @Html.SelectWidgetFor(new SelectWidgetAttribute<ModelOAKPILeavesCreate, string, int?>
+                          (m => m.OAKPILeaves.WorkAgentName, m => m.OAKPILeaves.WorkAgentID, "OA/UserProfile/Index") { HiddenClearButton = true, HiddenSelectButton = true, IsDbClickSelect = true })
+                @Html.ValidationMessageFor(x => x.OAKPILeaves.WorkAgentID)
+
+
+            </td>
+        </tr>
+        <tr>
+            <th>
+                编制人：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.MakerName, new { @readonly = "readonly", @class = "form-control" })
+            </td>
+            <th>
+                编制日期：
+            </th>
+            <td>
+                @Html.TextBoxFor(x => x.OAKPILeaves.MakeDate, new { @readonly = "readonly", @class = "form-control shortDateFormat" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                请假原因：
+            </th>
+            <td colspan="3">
+                <div style="word-break: break-all; word-wrap: break-word;">
+                    @Html.TextAreaFor(model => model.OAKPILeaves.Reason, new { @class = "form-control", style = "resize: none;height: 100px;" })
+                    @Html.ValidationMessageFor(x => x.OAKPILeaves.Reason)
+                </div>
+            </td>
+        </tr>
+    </table>*@
+
+
+@section EditScriptsPlaceHolder
+{
+
+    $(document).ready(function () {
+        $(".row:even").css('background-color', '#F9F9F9');
+
+
+        $("#btnUnSubmit").bind('click',function(){
+            $.ajax({
+                type: "POST",
+                url: '@Url.Content("~/" + @Model.SubmitPrefix + "/UnSubmit")',
+                data: {
+                    keyID:'@Model.KeyID'
+                }
+            });
+        });
+    });
+
+
+}
+
+
